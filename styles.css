@@ -1,0 +1,232 @@
+body {
+    height: calc(100vh - 100px);
+    padding: 100px;
+    margin: 0;
+    background: linear-gradient(180deg, #8B8B8B 0%, #222428 0.01%, #1A1821 100%);
+    background-image: url("./assets/images/background/Group 5.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.name_section {
+    display: flex;
+    gap: 50px;
+    max-width: 750px;
+    margin-bottom: 20px;
+}
+
+.name_section #profile_picture {
+    height: 150px;
+    width: 150px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+}
+
+.basic_info {
+    height: fill;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.name_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.name_div p{
+    color: #FFF;
+    font-family: Moulpali;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+
+.tag_div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tag_div div {
+    border-radius: 30px;
+    min-width: 80px;
+    border: 3px solid;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 30px;
+    padding-inline: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag_div p {
+    font-family: Moulpali;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.description_section div {
+    height: 300px;
+}
+
+
+.description_section div {
+    max-width: 720px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.02);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.description_section h3 {
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 13px;
+}
+
+.description_section p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.85);
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
+}
+
+.links_section div{
+    display: flex;
+    gap: 20px;
+}
+
+.links_section a{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    border-radius: 30px;
+    min-width: 80px;
+    border: 3px solid;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 30px;
+    padding-inline: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links_section #linkedin_link {
+    border-color: #0077B5;
+    color: #0077B5;
+}
+
+.links_section #github_link {
+    border-color: #bbbbbb;
+    color: #bbbbbb;
+}
+
+.links_section #youtube_link {
+    border-color: #FF0000;
+    color: #FF0000;
+}
+
+
+.project_section {
+    margin-bottom: 50px;
+}
+
+.tabs {
+    display: flex;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.tabs p{
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins", sans-serif;
+    padding-inline: 15px;
+}
+
+.tablinks {
+    border: none;
+    background: rgba(255, 255, 255, 0.0);
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: background-color 0.3s;
+    font-size: 17px;
+}
+
+.tablinks:hover {
+    border-bottom: none;
+    border: solid;
+    border-color: #ddd;
+}
+
+.tablinks.active {
+    background-color: #ddd;
+    color: rgb(34, 34, 34);
+}
+
+
+
+/* Styles for the tab content */
+.tabcontent {
+    max-width: 720px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.02);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.tabcontent h3 {
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 13px;
+}
+
+.tabcontent p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.85);
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.tabcontent a {
+    color: #0077B5;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+.tabcontent a:hover {
+    text-decoration: underline;
+}
